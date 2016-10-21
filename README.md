@@ -9,7 +9,7 @@ Bugs can be reported either in the "Issues" tab above (this is the preffered way
 The easiest way to get started with Octoprint is Octopi, a ready-made image for the Raspberry Pi.  To get this image, simply download it here: https://octopi.octoprint.org/latest
 
 ### Getting Started with OctoPi
-Once you have downloaded the image from above, you will need to write the image to an SD card.  If you don't know how to do that, you can find the instructions below.  If you're already comfortable with writing Raspberry Pi images, follow these next steps:
+Once you have downloaded the image from above, you will need to write the image to an SD card.  If you don't know how to do that, you can find the instructions at the bottom of this guide.  If you're already comfortable with writing Raspberry Pi images, follow these next steps:
 
 1.   Configure your WiFi connection by editing octopi-network.txt on the root of the flashed card when using it like a thumb drive.  
 Boot the Pi from the card.
