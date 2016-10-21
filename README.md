@@ -33,16 +33,16 @@ The QR code reader will populate the required field.  Press "Use Key" to finish 
 
 #### Step 4: Complete the setup by pressing "Add Printer" at the bottom of the screen.
 
-### Flashing the image to your SD Card
+## Flashing the image to your SD Card
 
-## Windows
+### Windows
 
-	1. Download Win32 Disk Imager from here and open up the program
-	2. Warning: CHECK this step very CAREFULLY - Click on the device you want to write to (hint; make sure its your sd card) you do not     want to overwrite your hard drive with all of your other files on it
-	3. Click on the folder icon to select your image file
-	4. Find the robo file and click open
-	5. Double check to make sure you are writing the file to the right sd card
-	6. Click "Write"
-	7. Click "Yes"
-	8. Eject the sd card safely to avoid curruption
+1. Download Win32 Disk Imager from here and open up the program
+2. Warning: CHECK this step very CAREFULLY - Click on the device you want to write to (hint; make sure its your sd card) you do not     want to overwrite your hard drive with all of your other files on it
+3. Click on the folder icon to select your image file
+4. Find the robo file and click open
+5. Double check to make sure you are writing the file to the right sd card
+6. Click "Write"
+7. Click "Yes"
+8. Eject the sd card safely to avoid curruption
 
