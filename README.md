@@ -19,7 +19,7 @@ Boot the Pi from the card.
 3.  Access OctoPrint through http://octopi.local or `http://<your pi's ip address>.`
 
 
-#### Connecting the Robo app to Octoprint.
+## Connecting the Robo app to Octoprint.
 
 Setting up the Robo app to talk to your printer is easy, just follow the steps below.
 
