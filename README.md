@@ -7,13 +7,10 @@ The easiest way to get started with Octoprint is Octopi, a ready-made image for 
 
 ### Getting Started with OctoPi
 Once you have downloaded the image from above, you will need to write the image to an SD card.  If you don't know how to do that, you can find the instructions below.  If you're already comfortable with writing Raspberry Pi images, follow these next steps:
-```
-Configure your WiFi connection by editing octopi-network.txt on the root of the flashed card when using it like a thumb drive.  
+
+1.   Configure your WiFi connection by editing octopi-network.txt on the root of the flashed card when using it like a thumb drive.  
 Boot the Pi from the card.
-```
-```
-Log into your Pi via SSH (it is located at octopi.local if your computer supports bonjour or the IP address assigned by your router), default username is “pi”, default password is “raspberry”. Change the password using the passwd command and expand the filesystem of the SD card through the corresponding option when running sudo raspi-config.
-```
-```
-Access OctoPrint through http://octopi.local or http://<your pi's ip address>.
-```
+
+2.  Log into your Pi via SSH (it is located at octopi.local if your computer supports bonjour or the IP address assigned by your router), default username is “pi”, default password is “raspberry”. Change the password using the passwd command and expand the filesystem of the SD card through the corresponding option when running sudo raspi-config.
+
+3.  Access OctoPrint through http://octopi.local or http://<your pi's ip address>.
