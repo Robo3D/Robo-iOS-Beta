@@ -66,7 +66,7 @@ The QR code reader will populate the required field.  Press "Use Key" to finish 
 3. Insert the sd card back into your computer
 4. Again, type in **df -h**
 	1. You should see a list of the drives on your system but also one more drive that is your sd card (example name of my sd card 	is disk1s1, but yours could be something with a different name)
-5. Type in **diskutil unmount /dev/disk1s1** \
+5. Type in **diskutil unmount /dev/disk1s1**
 	1. (disk1s1 is the name of my sd card but yours could be different so replace disk1s1 with the name of your sd card that you saw in the last step)
 6. From here on out, replace the name of your sd card with rdisk1 (this means put an r in front of disk, and take off the s1 at the end) this will make sense in the next step
 7. Type in **dd bs=4M status=progress if=~/desktop/imagename.img of=/dev/rdisk1** 
