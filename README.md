@@ -4,6 +4,7 @@
 ### How to report bugs
 Bugs can be reported either in the "Issues" tab above (this is the preffered way), or email us the details at beta@robo3d.com
 
+
 ## Getting started with Octoprint
 
 The easiest way to get started with Octoprint is Octopi, a ready-made image for the Raspberry Pi.  To get this image, simply download it here: https://octopi.octoprint.org/latest
@@ -19,6 +20,7 @@ Boot the Pi from the card.
 3.  Access OctoPrint through http://octopi.local or `http://<your pi's ip address>.`
 
 
+
 ## Connecting the Robo app to Octoprint.
 
 Setting up the Robo app to talk to your printer is easy, just follow the steps below.
@@ -32,6 +34,8 @@ This will automatically fill out the printer name and IP address.  If this does 
 Once you have downloaded the image from above, you will need to write the image to an SD card.  If you don't know how to do that, you can find the instructions below.  If you're already comfortable with writing Raspberry Pi images, follow these next steps:
 
 #### Step 4: Complete the setup by pressing "Add Printer" at the bottom of the screen.
+
+
 
 ## Flashing the image to your SD Card
 
