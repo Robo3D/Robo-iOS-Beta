@@ -57,8 +57,10 @@ The QR code reader will populate the required field.  Press "Use Key" to finish 
 6. Click 'erase' button to format the disk
 7. Close disk utility
 8. Take out sd card
+
 #### Flash disk image
-1.Search 'Terminal' in the upper right corner of your desktop search function
+
+1. Search 'Terminal' in the upper right corner of your desktop search function
 2. Once terminal is open type df -h
 		This will bring up a list all of the drives that are on your system
 3. Insert the sd card back into your computer
