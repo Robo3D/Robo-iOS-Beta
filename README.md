@@ -4,7 +4,6 @@
 ### How to report bugs
 Bugs can be reported either in the "Issues" tab above (this is the preffered way), or email us the details at beta@robo3d.com
 
-
 ## Getting started with Octoprint
 
 The easiest way to get started with Octoprint is Octopi, a ready-made image for the Raspberry Pi.  To get this image, simply download it here: https://octopi.octoprint.org/latest
@@ -20,8 +19,7 @@ Boot the Pi from the card.
 3.  Access OctoPrint through http://octopi.local or `http://<your pi's ip address>.`
 
 
-
-## Connecting the Robo app to Octoprint.
+#### Connecting the Robo app to Octoprint.
 
 Setting up the Robo app to talk to your printer is easy, just follow the steps below.
 
@@ -30,12 +28,10 @@ Setting up the Robo app to talk to your printer is easy, just follow the steps b
 #### Step 2: Select "Scan for Printer Name / IP".
 This will automatically fill out the printer name and IP address.  If this does not work, enter the IP address manually and give your printer a name.
 
-#### Step 3: Scan your printer's QR code under "Settings" and "API" in Octoprint. 
-Once you have downloaded the image from above, you will need to write the image to an SD card.  If you don't know how to do that, you can find the instructions below.  If you're already comfortable with writing Raspberry Pi images, follow these next steps:
+#### Step 3: Scan your printer's QR code under "Settings" and "API". 
+The QR code reader will populate the required field.  Press "Use Key" to finish this step.
 
 #### Step 4: Complete the setup by pressing "Add Printer" at the bottom of the screen.
-
-
 
 ## Flashing the image to your SD Card
 
@@ -69,12 +65,12 @@ Once you have downloaded the image from above, you will need to write the image 
 		This will bring up a list all of the drives that are on your system
 3. Insert the sd card back into your computer
 4. Again, type in df -h
-		You should see a list of the drives on your system but also one more drive that is your sd card (example name of my sd card is            disk1s1, but yours could be something with a different name)
-		Type in diskutil unmount /dev/disk1s1 (disk1s1 is the name of my sd card but yours could be different so replace disk1s1 with the name of your sd card that you saw in the last step)
-		From here on out, replace the name of your sd card with rdisk1 (this means put an r in front of disk, and take off the s1 at the end) this will make sense in the next step)
-		Type in dd bs=4M status=progress if=~/desktop/imagename.img of=/dev/rdisk1 (replace /desktop/imagename.img with the path of where your image is saved (I saved mine to the desktop), and replace disk1s1 with the new name rdisk1)
+	You should see a list of the drives on your system but also one more drive that is your sd card (example name of my sd card is 		disk1s1, but yours could be something with a different name)
+5. Type in diskutil unmount /dev/disk1s1 (disk1s1 is the name of my sd card but yours could be different so replace disk1s1 with the 		name of your sd card that you saw in the last step)
+6. From here on out, replace the name of your sd card with rdisk1 (this means put an r in front of disk, and take off the s1 at the end) 	this will make sense in the next step)
+7. Type in dd bs=4M status=progress if=~/desktop/imagename.img of=/dev/rdisk1 (replace /desktop/imagename.img with the path of where 		your image is saved (I saved mine to the desktop), and replace disk1s1 with the new name rdisk1)
 		
-		Or
+#####Or
 		
-Download PiWriter from here and write the image to your sd from the application. Tutorial video found here
+Download PiWriter from here, https://sourceforge.net/projects/piwriter/files/PiWriter-2.x/ and write the image to your sd from the application. Tutorial video found here, https://youtu.be/PIvNxprbDhQ
 
