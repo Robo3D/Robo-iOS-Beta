@@ -1,6 +1,9 @@
 # Robo-iOS-Beta
 #### A place for iOS development of the Robo App
 
+### How to report bugs
+Bugs can be reported either in the "Issues" tab above (this is the preffered way), or email us the details at beta@robo3d.com
+
 ## Getting started with Octoprint
 
 The easiest way to get started with Octoprint is Octopi, a ready-made image for the Raspberry Pi.  To get this image, simply download it here: https://octopi.octoprint.org/latest
@@ -18,11 +21,9 @@ Boot the Pi from the card.
 
 #### Connecting the Robo app to Octoprint.
 
-Setting up the Robo app to talk to your printer is easy, just follow the screenshots below.
+Setting up the Robo app to talk to your printer is easy, just follow the steps below.
 
 #### Step 1: Select "ADD A PRINTER" from the Dashboard screen
-
-<img src="https://lh3.googleusercontent.com/6HjvNA4BKZ8WddzE09EHcbHrdjnU7EIAFfWTFGBy0A_O-8W6lnTvkaNhXVjom_Xd940Ct_FdcOWmqtc=w2161-h1128-rw"></src>
 
 #### Step 2: Select "Scan for Printer Name / IP".
 This will automatically fill out the printer name and IP address.  If this does not work, enter the IP address manually and give your printer a name.
