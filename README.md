@@ -29,7 +29,7 @@ Setting up the Robo app to talk to your printer is easy, just follow the steps b
 This will automatically fill out the printer name and IP address.  If this does not work, enter the IP address manually and give your printer a name.
 
 #### Step 3: Scan your printer's QR code under "Settings" and "API". 
-The QR code reader will populate the required field.  Press "Use Key" to finish this step.
+In your Octoprint dashboard, you can find the API key QR code under the "Settings" menu option, under "API" in the settings menu. The QR code reader will populate the required field.  Press "Use Key" to finish this step.
 
 #### Step 4: Complete the setup by pressing "Add Printer" at the bottom of the screen.
 
